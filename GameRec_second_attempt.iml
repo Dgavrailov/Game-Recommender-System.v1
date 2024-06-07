@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/Software technologies with specialization Artificial intelligence/2 godina/ontologyManager_files_and_libs/lib/lib/com.fasterxml.jackson.databind.jar!/" />
+          <root url="jar://D:/Software technologies with specialization Artificial intelligence/2 godina/ontologyManager_files_and_libs/lib/lib/jackson-annotations-2.1.2.jar!/" />
+          <root url="jar://D:/Software technologies with specialization Artificial intelligence/2 godina/ontologyManager_files_and_libs/lib/lib/jackson-core-2.2.3.jar!/" />
+          <root url="jar://D:/Software technologies with specialization Artificial intelligence/2 godina/ontologyManager_files_and_libs/lib/lib/jade.jar!/" />
+          <root url="jar://D:/Software technologies with specialization Artificial intelligence/2 godina/ontologyManager_files_and_libs/lib/lib/org.semanticweb.HermiT.jar!/" />
+          <root url="jar://D:/Software technologies with specialization Artificial intelligence/2 godina/ontologyManager_files_and_libs/lib/lib/owlapi-distribution-3.5.0.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://D:/Software technologies with specialization Artificial intelligence/2 godina/ontologyManager_files_and_libs/lib/lib/owlapi-distribution-3.5.0-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://D:/Software technologies with specialization Artificial intelligence/2 godina/ontologyManager_files_and_libs/lib/lib/owlapi-distribution-3.5.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="javafx-swt" level="project" />
+    <orderEntry type="library" name="javafx-swt1" level="project" />
+    <orderEntry type="library" name="javafx-base-23-ea+20" level="project" />
+  </component>
+</module>

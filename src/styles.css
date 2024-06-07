@@ -1,0 +1,25 @@
+.root {
+    -fx-font-family: 'Arial';
+}
+
+.label {
+    -fx-font-size: 14px;
+}
+
+.button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+.button:hover {
+    -fx-background-color: #0056b3;
+}
+
+.combo-box {
+    -fx-min-width: 200px;
+}
+
+.text-area {
+    -fx-min-height: 100px;
+}

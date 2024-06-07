@@ -1,0 +1,1317 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/denislav/ontologies/2024/3/untitled-ontology-8"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/denislav/ontologies/2024/3/untitled-ontology-8">
+    <Prefix name="" IRI="http://www.semanticweb.org/denislav/ontologies/2024/3/untitled-ontology-8/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="untitled-ontology-8" IRI="http://www.semanticweb.org/denislav/ontologies/2024/3/untitled-ontology-8#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <Literal>An ontology for Games recommendations</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Adventure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#American_football"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Android"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Baseball"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Basketball"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blizzard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Call_Of_Duty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Card"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diablo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EA_Games"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FIFA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fighting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Football"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Formula_1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Game_Publisher"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Games"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genres"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hearth_Stone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MADDEN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Midway_Games"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mortal_Combat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Need_for_speed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Platform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Play_Station"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RPG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Racing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shooter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sims"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sports"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Star_Wars"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Starcraft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Super_Mega_Baseball"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WRC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#World_of_Warcraft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Xbox"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_genre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#playable_on"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#published_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#relations"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#multiplayer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adventure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#American_football"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Android"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Baseball"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Basketball"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blizzard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Call_of_Duty_2024"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Card"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EA_Games"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FIFA_2022"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FIFA_2023"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FIFA_2024"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fighting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Football"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Formula_1_2024"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hearth_stone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MADDEN_2024"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Midway_Games"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mortal_Combat_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Need_for_speed_Hot_Pursuit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Need_for_speed_Most_Wanted"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Need_for_speed_Payback"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Need_for_speed_Unbound"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Need_for_speed_Underground"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Play_Station"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RPG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Racing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shooter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sims_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Star_Wars_Jedi_Survivor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Starcraft_II"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Super_Mega_Baseball_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UFC_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WRC-2024"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Xbox"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#diablo_III"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#diablo_II_resurrected"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#diablo_IV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#world_of_warcraft_Lich_King"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Adventure"/>
+        <Class IRI="#Genres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#American_football"/>
+        <Class IRI="#Sports"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Android"/>
+        <Class IRI="#Platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Baseball"/>
+        <Class IRI="#Sports"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basketball"/>
+        <Class IRI="#Sports"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blizzard"/>
+        <Class IRI="#Game_Publisher"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Call_Of_Duty"/>
+        <Class IRI="#Games"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Card"/>
+        <Class IRI="#Genres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diablo"/>
+        <Class IRI="#Games"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EA_Games"/>
+        <Class IRI="#Game_Publisher"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FIFA"/>
+        <Class IRI="#Games"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fighting"/>
+        <Class IRI="#Genres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Football"/>
+        <Class IRI="#Sports"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Formula_1"/>
+        <Class IRI="#Games"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Games"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_genre"/>
+            <Class IRI="#Genres"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Games"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#playable_on"/>
+            <Class IRI="#Platform"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Games"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#published_by"/>
+            <Class IRI="#Game_Publisher"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hearth_Stone"/>
+        <Class IRI="#Games"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MADDEN"/>
+        <Class IRI="#Games"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Midway_Games"/>
+        <Class IRI="#Game_Publisher"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mortal_Combat"/>
+        <Class IRI="#Games"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Need_for_speed"/>
+        <Class IRI="#Games"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PC"/>
+        <Class IRI="#Platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Play_Station"/>
+        <Class IRI="#Platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RPG"/>
+        <Class IRI="#Genres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Racing"/>
+        <Class IRI="#Genres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shooter"/>
+        <Class IRI="#Genres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sims"/>
+        <Class IRI="#Games"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sports"/>
+        <Class IRI="#Genres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Star_Wars"/>
+        <Class IRI="#Games"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Starcraft"/>
+        <Class IRI="#Games"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Super_Mega_Baseball"/>
+        <Class IRI="#Games"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFC"/>
+        <Class IRI="#Games"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WRC"/>
+        <Class IRI="#Games"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#World_of_Warcraft"/>
+        <Class IRI="#Games"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Xbox"/>
+        <Class IRI="#Platform"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#American_football"/>
+        <Class IRI="#Baseball"/>
+        <Class IRI="#Basketball"/>
+        <Class IRI="#Football"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Blizzard"/>
+        <Class IRI="#EA_Games"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Blizzard"/>
+        <Class IRI="#EA_Games"/>
+        <Class IRI="#Midway_Games"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Adventure"/>
+        <NamedIndividual IRI="#Adventure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#American_football"/>
+        <NamedIndividual IRI="#American_football"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Android"/>
+        <NamedIndividual IRI="#Android"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Baseball"/>
+        <NamedIndividual IRI="#Baseball"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Basketball"/>
+        <NamedIndividual IRI="#Basketball"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Blizzard"/>
+        <NamedIndividual IRI="#Blizzard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Call_Of_Duty"/>
+        <NamedIndividual IRI="#Call_of_Duty_2024"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Card"/>
+        <NamedIndividual IRI="#Card"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EA_Games"/>
+        <NamedIndividual IRI="#EA_Games"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FIFA"/>
+        <NamedIndividual IRI="#FIFA_2022"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FIFA"/>
+        <NamedIndividual IRI="#FIFA_2023"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FIFA"/>
+        <NamedIndividual IRI="#FIFA_2024"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fighting"/>
+        <NamedIndividual IRI="#Fighting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Football"/>
+        <NamedIndividual IRI="#Football"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Formula_1"/>
+        <NamedIndividual IRI="#Formula_1_2024"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hearth_Stone"/>
+        <NamedIndividual IRI="#Hearth_stone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MADDEN"/>
+        <NamedIndividual IRI="#MADDEN_2024"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Midway_Games"/>
+        <NamedIndividual IRI="#Midway_Games"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mortal_Combat"/>
+        <NamedIndividual IRI="#Mortal_Combat_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Need_for_speed"/>
+        <NamedIndividual IRI="#Need_for_speed_Hot_Pursuit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Need_for_speed"/>
+        <NamedIndividual IRI="#Need_for_speed_Most_Wanted"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Need_for_speed"/>
+        <NamedIndividual IRI="#Need_for_speed_Payback"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Need_for_speed"/>
+        <NamedIndividual IRI="#Need_for_speed_Unbound"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Need_for_speed"/>
+        <NamedIndividual IRI="#Need_for_speed_Underground"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PC"/>
+        <NamedIndividual IRI="#PC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Play_Station"/>
+        <NamedIndividual IRI="#Play_Station"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RPG"/>
+        <NamedIndividual IRI="#RPG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Racing"/>
+        <NamedIndividual IRI="#Racing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Shooter"/>
+        <NamedIndividual IRI="#Shooter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sims"/>
+        <NamedIndividual IRI="#Sims_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Star_Wars"/>
+        <NamedIndividual IRI="#Star_Wars_Jedi_Survivor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Starcraft"/>
+        <NamedIndividual IRI="#Starcraft_II"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Super_Mega_Baseball"/>
+        <NamedIndividual IRI="#Super_Mega_Baseball_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UFC"/>
+        <NamedIndividual IRI="#UFC_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WRC"/>
+        <NamedIndividual IRI="#WRC-2024"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Xbox"/>
+        <NamedIndividual IRI="#Xbox"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diablo"/>
+        <NamedIndividual IRI="#diablo_III"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diablo"/>
+        <NamedIndividual IRI="#diablo_II_resurrected"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diablo"/>
+        <NamedIndividual IRI="#diablo_IV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#World_of_Warcraft"/>
+        <NamedIndividual IRI="#world_of_warcraft_Lich_King"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Call_of_Duty_2024"/>
+        <NamedIndividual IRI="#Adventure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Call_of_Duty_2024"/>
+        <NamedIndividual IRI="#Shooter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#Call_of_Duty_2024"/>
+        <NamedIndividual IRI="#PC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#Call_of_Duty_2024"/>
+        <NamedIndividual IRI="#Play_Station"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#Call_of_Duty_2024"/>
+        <NamedIndividual IRI="#Xbox"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#published_by"/>
+        <NamedIndividual IRI="#Call_of_Duty_2024"/>
+        <NamedIndividual IRI="#Blizzard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#FIFA_2022"/>
+        <NamedIndividual IRI="#Football"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#FIFA_2022"/>
+        <NamedIndividual IRI="#PC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#FIFA_2022"/>
+        <NamedIndividual IRI="#Play_Station"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#FIFA_2022"/>
+        <NamedIndividual IRI="#Xbox"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#published_by"/>
+        <NamedIndividual IRI="#FIFA_2022"/>
+        <NamedIndividual IRI="#EA_Games"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#FIFA_2023"/>
+        <NamedIndividual IRI="#Football"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#FIFA_2023"/>
+        <NamedIndividual IRI="#PC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#FIFA_2023"/>
+        <NamedIndividual IRI="#Play_Station"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#FIFA_2023"/>
+        <NamedIndividual IRI="#Xbox"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#published_by"/>
+        <NamedIndividual IRI="#FIFA_2023"/>
+        <NamedIndividual IRI="#EA_Games"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#FIFA_2024"/>
+        <NamedIndividual IRI="#Football"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#FIFA_2024"/>
+        <NamedIndividual IRI="#PC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#FIFA_2024"/>
+        <NamedIndividual IRI="#Play_Station"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#FIFA_2024"/>
+        <NamedIndividual IRI="#Xbox"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#published_by"/>
+        <NamedIndividual IRI="#FIFA_2024"/>
+        <NamedIndividual IRI="#EA_Games"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Formula_1_2024"/>
+        <NamedIndividual IRI="#Racing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#published_by"/>
+        <NamedIndividual IRI="#Formula_1_2024"/>
+        <NamedIndividual IRI="#EA_Games"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Hearth_stone"/>
+        <NamedIndividual IRI="#Card"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#Hearth_stone"/>
+        <NamedIndividual IRI="#PC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#published_by"/>
+        <NamedIndividual IRI="#Hearth_stone"/>
+        <NamedIndividual IRI="#Blizzard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#MADDEN_2024"/>
+        <NamedIndividual IRI="#American_football"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#MADDEN_2024"/>
+        <NamedIndividual IRI="#Play_Station"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#MADDEN_2024"/>
+        <NamedIndividual IRI="#Xbox"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#published_by"/>
+        <NamedIndividual IRI="#MADDEN_2024"/>
+        <NamedIndividual IRI="#EA_Games"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Mortal_Combat_1"/>
+        <NamedIndividual IRI="#Fighting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#Mortal_Combat_1"/>
+        <NamedIndividual IRI="#PC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#Mortal_Combat_1"/>
+        <NamedIndividual IRI="#Play_Station"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#Mortal_Combat_1"/>
+        <NamedIndividual IRI="#Xbox"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#published_by"/>
+        <NamedIndividual IRI="#Mortal_Combat_1"/>
+        <NamedIndividual IRI="#Midway_Games"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Need_for_speed_Hot_Pursuit"/>
+        <NamedIndividual IRI="#Adventure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Need_for_speed_Hot_Pursuit"/>
+        <NamedIndividual IRI="#Racing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#Need_for_speed_Hot_Pursuit"/>
+        <NamedIndividual IRI="#PC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#Need_for_speed_Hot_Pursuit"/>
+        <NamedIndividual IRI="#Play_Station"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#Need_for_speed_Hot_Pursuit"/>
+        <NamedIndividual IRI="#Xbox"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#published_by"/>
+        <NamedIndividual IRI="#Need_for_speed_Hot_Pursuit"/>
+        <NamedIndividual IRI="#EA_Games"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Need_for_speed_Most_Wanted"/>
+        <NamedIndividual IRI="#Adventure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Need_for_speed_Most_Wanted"/>
+        <NamedIndividual IRI="#Racing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#Need_for_speed_Most_Wanted"/>
+        <NamedIndividual IRI="#PC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#Need_for_speed_Most_Wanted"/>
+        <NamedIndividual IRI="#Play_Station"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#Need_for_speed_Most_Wanted"/>
+        <NamedIndividual IRI="#Xbox"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#published_by"/>
+        <NamedIndividual IRI="#Need_for_speed_Most_Wanted"/>
+        <NamedIndividual IRI="#EA_Games"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Need_for_speed_Payback"/>
+        <NamedIndividual IRI="#Adventure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Need_for_speed_Payback"/>
+        <NamedIndividual IRI="#Racing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#Need_for_speed_Payback"/>
+        <NamedIndividual IRI="#PC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#Need_for_speed_Payback"/>
+        <NamedIndividual IRI="#Play_Station"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#Need_for_speed_Payback"/>
+        <NamedIndividual IRI="#Xbox"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#published_by"/>
+        <NamedIndividual IRI="#Need_for_speed_Payback"/>
+        <NamedIndividual IRI="#EA_Games"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Need_for_speed_Unbound"/>
+        <NamedIndividual IRI="#Adventure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Need_for_speed_Unbound"/>
+        <NamedIndividual IRI="#Racing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#Need_for_speed_Unbound"/>
+        <NamedIndividual IRI="#PC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#Need_for_speed_Unbound"/>
+        <NamedIndividual IRI="#Play_Station"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#Need_for_speed_Unbound"/>
+        <NamedIndividual IRI="#Xbox"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#published_by"/>
+        <NamedIndividual IRI="#Need_for_speed_Unbound"/>
+        <NamedIndividual IRI="#EA_Games"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Need_for_speed_Underground"/>
+        <NamedIndividual IRI="#Adventure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Need_for_speed_Underground"/>
+        <NamedIndividual IRI="#Racing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#Need_for_speed_Underground"/>
+        <NamedIndividual IRI="#PC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#Need_for_speed_Underground"/>
+        <NamedIndividual IRI="#Play_Station"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#Need_for_speed_Underground"/>
+        <NamedIndividual IRI="#Xbox"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#published_by"/>
+        <NamedIndividual IRI="#Need_for_speed_Underground"/>
+        <NamedIndividual IRI="#EA_Games"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Sims_4"/>
+        <NamedIndividual IRI="#Adventure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#Sims_4"/>
+        <NamedIndividual IRI="#PC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#published_by"/>
+        <NamedIndividual IRI="#Sims_4"/>
+        <NamedIndividual IRI="#EA_Games"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Star_Wars_Jedi_Survivor"/>
+        <NamedIndividual IRI="#Adventure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#Star_Wars_Jedi_Survivor"/>
+        <NamedIndividual IRI="#PC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#Star_Wars_Jedi_Survivor"/>
+        <NamedIndividual IRI="#Play_Station"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#Star_Wars_Jedi_Survivor"/>
+        <NamedIndividual IRI="#Xbox"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#published_by"/>
+        <NamedIndividual IRI="#Star_Wars_Jedi_Survivor"/>
+        <NamedIndividual IRI="#EA_Games"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Starcraft_II"/>
+        <NamedIndividual IRI="#Fighting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Starcraft_II"/>
+        <NamedIndividual IRI="#RPG"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#Starcraft_II"/>
+        <NamedIndividual IRI="#PC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#published_by"/>
+        <NamedIndividual IRI="#Starcraft_II"/>
+        <NamedIndividual IRI="#Blizzard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#Super_Mega_Baseball_4"/>
+        <NamedIndividual IRI="#Baseball"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#Super_Mega_Baseball_4"/>
+        <NamedIndividual IRI="#PC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#Super_Mega_Baseball_4"/>
+        <NamedIndividual IRI="#Play_Station"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#Super_Mega_Baseball_4"/>
+        <NamedIndividual IRI="#Xbox"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#published_by"/>
+        <NamedIndividual IRI="#Super_Mega_Baseball_4"/>
+        <NamedIndividual IRI="#EA_Games"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#UFC_5"/>
+        <NamedIndividual IRI="#Fighting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#UFC_5"/>
+        <NamedIndividual IRI="#PC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#UFC_5"/>
+        <NamedIndividual IRI="#Play_Station"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#UFC_5"/>
+        <NamedIndividual IRI="#Xbox"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#published_by"/>
+        <NamedIndividual IRI="#UFC_5"/>
+        <NamedIndividual IRI="#EA_Games"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#WRC-2024"/>
+        <NamedIndividual IRI="#Racing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#WRC-2024"/>
+        <NamedIndividual IRI="#PC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#WRC-2024"/>
+        <NamedIndividual IRI="#Play_Station"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#WRC-2024"/>
+        <NamedIndividual IRI="#Xbox"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#published_by"/>
+        <NamedIndividual IRI="#WRC-2024"/>
+        <NamedIndividual IRI="#EA_Games"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#diablo_III"/>
+        <NamedIndividual IRI="#Adventure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#diablo_III"/>
+        <NamedIndividual IRI="#RPG"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#diablo_III"/>
+        <NamedIndividual IRI="#PC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#diablo_III"/>
+        <NamedIndividual IRI="#Play_Station"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#diablo_III"/>
+        <NamedIndividual IRI="#Xbox"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#published_by"/>
+        <NamedIndividual IRI="#diablo_III"/>
+        <NamedIndividual IRI="#Blizzard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#diablo_II_resurrected"/>
+        <NamedIndividual IRI="#Adventure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#diablo_II_resurrected"/>
+        <NamedIndividual IRI="#RPG"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#diablo_II_resurrected"/>
+        <NamedIndividual IRI="#PC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#diablo_II_resurrected"/>
+        <NamedIndividual IRI="#Play_Station"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#diablo_II_resurrected"/>
+        <NamedIndividual IRI="#Xbox"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#published_by"/>
+        <NamedIndividual IRI="#diablo_II_resurrected"/>
+        <NamedIndividual IRI="#Blizzard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#diablo_IV"/>
+        <NamedIndividual IRI="#Adventure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#diablo_IV"/>
+        <NamedIndividual IRI="#RPG"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#diablo_IV"/>
+        <NamedIndividual IRI="#PC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#diablo_IV"/>
+        <NamedIndividual IRI="#Play_Station"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#diablo_IV"/>
+        <NamedIndividual IRI="#Xbox"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#published_by"/>
+        <NamedIndividual IRI="#diablo_IV"/>
+        <NamedIndividual IRI="#Blizzard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#world_of_warcraft_Lich_King"/>
+        <NamedIndividual IRI="#Adventure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_genre"/>
+        <NamedIndividual IRI="#world_of_warcraft_Lich_King"/>
+        <NamedIndividual IRI="#RPG"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#playable_on"/>
+        <NamedIndividual IRI="#world_of_warcraft_Lich_King"/>
+        <NamedIndividual IRI="#PC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#published_by"/>
+        <NamedIndividual IRI="#world_of_warcraft_Lich_King"/>
+        <NamedIndividual IRI="#Blizzard"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multiplayer"/>
+        <NamedIndividual IRI="#Call_of_Duty_2024"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multiplayer"/>
+        <NamedIndividual IRI="#FIFA_2022"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multiplayer"/>
+        <NamedIndividual IRI="#FIFA_2023"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multiplayer"/>
+        <NamedIndividual IRI="#FIFA_2024"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multiplayer"/>
+        <NamedIndividual IRI="#Hearth_stone"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multiplayer"/>
+        <NamedIndividual IRI="#MADDEN_2024"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multiplayer"/>
+        <NamedIndividual IRI="#Mortal_Combat_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multiplayer"/>
+        <NamedIndividual IRI="#Need_for_speed_Hot_Pursuit"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multiplayer"/>
+        <NamedIndividual IRI="#Need_for_speed_Most_Wanted"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multiplayer"/>
+        <NamedIndividual IRI="#Need_for_speed_Payback"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multiplayer"/>
+        <NamedIndividual IRI="#Need_for_speed_Unbound"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multiplayer"/>
+        <NamedIndividual IRI="#Sims_4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multiplayer"/>
+        <NamedIndividual IRI="#Star_Wars_Jedi_Survivor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multiplayer"/>
+        <NamedIndividual IRI="#Starcraft_II"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multiplayer"/>
+        <NamedIndividual IRI="#Super_Mega_Baseball_4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multiplayer"/>
+        <NamedIndividual IRI="#UFC_5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multiplayer"/>
+        <NamedIndividual IRI="#WRC-2024"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multiplayer"/>
+        <NamedIndividual IRI="#diablo_III"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multiplayer"/>
+        <NamedIndividual IRI="#diablo_II_resurrected"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multiplayer"/>
+        <NamedIndividual IRI="#diablo_IV"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#multiplayer"/>
+        <NamedIndividual IRI="#world_of_warcraft_Lich_King"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_genre"/>
+        <ObjectProperty IRI="#relations"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#playable_on"/>
+        <ObjectProperty IRI="#relations"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#published_by"/>
+        <ObjectProperty IRI="#relations"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_genre"/>
+        <Class IRI="#Games"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#playable_on"/>
+        <Class IRI="#Games"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#published_by"/>
+        <Class IRI="#Games"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_genre"/>
+        <Class IRI="#Genres"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#playable_on"/>
+        <Class IRI="#Platform"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#published_by"/>
+        <Class IRI="#Game_Publisher"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#multiplayer"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#multiplayer"/>
+        <Class IRI="#Games"/>
+    </DataPropertyDomain>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
