@@ -15,7 +15,7 @@ Ontology: Made by Protege. Utilized for the agent's learning process to improve 
 
 Installation
 Clone the repository:
-git clone https://github.com/yourusername/game-recommender-system.git
+git clone [https://github.com/yourusername/game-recommender-system.git](https://github.com/Dgavrailov/Game-Recommender-System.v1.git)
 Navigate to the project directory:
 cd game-recommender-system
 Run the application.
